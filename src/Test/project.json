@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "description": "Test Console Application",
+  "authors": [ "AKamil" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+  },
+
+  "commands": {
+    "Test": "Test"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "Infra": "1.0.0-*"
+      }
+    }
+
+  }
+}
