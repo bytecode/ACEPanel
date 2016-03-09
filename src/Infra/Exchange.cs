@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 namespace Infra
 {
     
-    public class Exchange
+    public class Exchange : Role
     {
         private string PSURL;
         private Powershell ps;

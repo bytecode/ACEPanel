@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DC641535-3BA0-4873-90B4-AE2ABBBC90C5}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ACEPanel", "src\ACEPanel\ACEPanel.xproj", "{F1ADC321-029C-4BBC-A2B8-CFE92BD654FC}"
@@ -15,6 +16,8 @@ EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Infra", "src\Infra\Infra.xproj", "{48CF705C-E14A-42C3-9E55-39D80138E353}"
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Test", "src\Test\Test.xproj", "{D09E0E22-9536-4F12-8FE1-890D4A9763B8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Data", "src\Data\Data.xproj", "{E1AC9151-914D-44E0-9FBF-2E01565FDC07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +37,10 @@ Global
 		{D09E0E22-9536-4F12-8FE1-890D4A9763B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D09E0E22-9536-4F12-8FE1-890D4A9763B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D09E0E22-9536-4F12-8FE1-890D4A9763B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1AC9151-914D-44E0-9FBF-2E01565FDC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1AC9151-914D-44E0-9FBF-2E01565FDC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1AC9151-914D-44E0-9FBF-2E01565FDC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1AC9151-914D-44E0-9FBF-2E01565FDC07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +49,6 @@ Global
 		{F1ADC321-029C-4BBC-A2B8-CFE92BD654FC} = {494A993F-454A-4EF0-934E-496BA4664CCB}
 		{48CF705C-E14A-42C3-9E55-39D80138E353} = {494A993F-454A-4EF0-934E-496BA4664CCB}
 		{D09E0E22-9536-4F12-8FE1-890D4A9763B8} = {494A993F-454A-4EF0-934E-496BA4664CCB}
+		{E1AC9151-914D-44E0-9FBF-2E01565FDC07} = {494A993F-454A-4EF0-934E-496BA4664CCB}
 	EndGlobalSection
 EndGlobal

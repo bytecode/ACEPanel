@@ -7,7 +7,7 @@ namespace Infra
 {
     // This project can output the Class library as a NuGet Package.
     // To enable this option, right-click on the project and select the Properties menu item. In the Build tab select "Produce outputs on build".
-    public class AD
+    public class AD : Role
     {
         private Powershell ps;
         private string RootOU;
@@ -16,9 +16,9 @@ namespace Infra
         private string DomainPath;
         private string Organization;
         private string OrganizationPath;
-        public AD()
+        public AD(Powershell ps)
         {
-            this.ps = new Powershell();
+            this.ps = ps;
             // import AD Module
             this.ps.Execute("Import-Module ActiveDirectory");
         }

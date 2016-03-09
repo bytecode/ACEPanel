@@ -11,8 +11,16 @@ namespace Test
         {
             Dictionary<string, string> par = new Dictionary<string, string>();
             par.Add("UserPrincipalName", "Nigga@freshdelmonte.com");
-            var ad = new AD();
-            ad.GetDomain();
+            
+            //ad.GetDomain();
+            var ps = new Powershell();
+            ps.CreateRemoteSession("TESTAD0\\Administrator", "Games4Free", "10.80.1.85");
+            var ad = new AD(ps);
+         //   ad.CreateOrgranization("Nigga" , new Dictionary<string, string>());
+            var ret = ps.Execute("Get-ADDomain");
+            
+           /* ps.CloseRemoteSession();
+            var ret1 = ps.Execute("Get-ADDomain");*/
             Console.ReadLine();
         }
 
